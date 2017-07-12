@@ -1,0 +1,11 @@
+# Server settings.
+server:
+  rootPath: '/api/*'
+
+# Database settings.
+databases:
+  middleware:
+    driverClass: com.mysql.jdbc.Driver
+    user: root
+    password: middleware
+    url: jdbc:mysql://localhost:3306/middleware
